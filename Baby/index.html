@@ -3,29 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Anniversary</title>
+    <link rel="stylesheet" type="text/css" href="css/zhaopian.css" />
     <style type="text/css">
         body{
-            background-image: url("/Baby/images/0.jpg");
-            background-size: 100% 100%;
-            height: 100%;
+            background-image:url(./images/7.jpg);
+            background-size:cover;
+
         }
         html{
             height:100%;
         }
+        #divTyping {
+            width: 300px;
+            height: 25px;
+            margin: 200px auto; /*margin 简写属性在一个声明中设置所有外边距属性。*/
+        }
+        #one
+        {
+            font-size: 40px;
+            position:absolute;
+            left: 30%;
+            top: 650px;
+            text-align:center;
+        }
+
+
     </style>
 </head>
+<script type="text/javascript" src="./js/shubiao.js"></script>
 <script>
-    alert("你为什么要打开这个网页呀？");
-    alert("你是不是很好奇呀！");
-    alert("哈哈哈哈哈哈哈");
-    alert("继续往下看");
-    alert("今天是个特别的日子");
-    alert("给你一份特别的礼物");
-    alert("最后一句了，接下来见证历史的时刻");
+    function taolu(){
+        alert("你为什么要打开这个网页呀？");
+        alert("你是不是很好奇呀！");
+        alert("哈哈哈哈哈哈哈");
+        alert("继续往下看");
+        alert("今天是个特别的日子");
+        alert("给你一份特别的礼物");
+        alert("最后一句了，接下来见证历史的时刻");
+
+    }
+     taolu();
+
+
 </script>
-<body>
-<h1>生日快乐</h1>
-<p>祝你生日快乐！</p>
+<body align="center" bgcolor="#f5f5f5" >
+<div class="container">
+    <img class="pic pic0" src="images/0.jpg" >
+    <img class="pic pic1" src="images/1.jpg" >
+    <img class="pic pic2" src="images/2.jpg" >
+    <img class="pic pic3" src="images/3.jpg" >
+    <img class="pic pic4" src="images/4.jpg" >
+    <img class="pic pic5" src="images/5.jpg" >
+    <img class="pic pic6" src="images/6.jpg" >
+
+</div>
+<audio src="bgm/bgm2.mp3" autoplay="autoplay" loop></audio>
+
+<h1 id="one">狼狈为奸已经：<span></span>天<span></span>小时<span></span>分<span></span>秒</h1>
+<div id="divTyping"></div>
+<script type="text/javascript" src="./js/jishi.js"></script>
+<script type="text/javascript" src="./js/dazi.js"></script>
 </body>
 </html>
 
